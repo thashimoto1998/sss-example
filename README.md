@@ -1,7 +1,8 @@
 # sss-example
 
 ## npm package
-[secrets.js-grempe](https://www.npmjs.com/package/secrets.js-grempe)
+shamir's secret sharing: [secrets.js-grempe](https://www.npmjs.com/package/secrets.js-grempe)
+encrypt/decrypt: crypto
 
 ## PreInstall
 - typescript
