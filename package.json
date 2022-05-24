@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "crypto": "^1.0.1",
     "secrets.js-grempe": "^2.0.0"
   }
 }
