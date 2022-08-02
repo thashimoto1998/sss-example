@@ -1,8 +1,8 @@
 import * as secrets from "secrets.js-grempe";
 import * as crypto from "crypto";
-import * as base64 from "js-base64";
 import * as zlib from "zlib";
 import cryptoJs from "crypto-js";
+import { encrypt, decrypt, PrivateKey, PublicKey } from 'eciesjs';
 
 function main() {
     //const secret = "hello world";
