@@ -6,6 +6,9 @@
   "dependencies": {
     "@truffle/hdwallet-provider": "^2.0.13",
     "@types/uuid": "^8.3.4",
+    "@walletconnect/client": "^1.8.0",
+    "@walletconnect/qrcode-modal": "^1.8.0",
+    "axios": "^1.4.0",
     "crypto": "^1.0.1",
     "dotenv": "^16.0.1",
     "eciesjs": "^0.3.15",

@@ -17,6 +17,12 @@ async function main() {
     console.log("address: ", myAddress);
     const sig = await web3.eth.personal.sign(MESSAGE_TO_BE_SIGNED, myAddress, ""); 
     console.log("sig: ", sig);
+
+    const recoverAddr = await web3.eth.accounts.recover(
+        MESSAGE_TO_BE_SIGNED,
+        sig
+    );
+    console.log("recovered address:", recoverAddr);
 }
 
 main()
